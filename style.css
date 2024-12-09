@@ -85,6 +85,10 @@ margin-left: 5px;
     white-space: normal; /* Allow multi-line wrapping */
 }
 
+#texts > .child-text {
+    margin-bottom: 5px;
+}
+
 .activeNumber {
     background: #89bfeed1;
 }

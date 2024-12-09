@@ -217,7 +217,7 @@ function handleArrowKey(key) {
 
 function handleTextInputCharacter(key) {
   // Capture keyboard input in text input mode
-  if (key == 'meta') {}
+  if (key == 'meta' || key == 'alt' || key == 'control') {}
   else {
     textInput += event.key
   }
